@@ -6,5 +6,5 @@ def perguntar():
                  '<L> Para listar usuário\n').upper()
 
 def inserir(Dicionario):
-    usuarios[input("Digite a chave").upper()] = [input("Digite o nome").upper(), input("Digite a data"),
+    Dicionario[input("Digite a chave").upper()] = [input("Digite o nome").upper(), input("Digite a data"),
                                                  input("Digite a estação").upper()]
